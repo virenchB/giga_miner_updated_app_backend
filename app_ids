@@ -1,8 +1,64 @@
 {
-  "version": 1,
+  "version": 2,
   "updated_at": "2026-03-23T00:00:00Z",
   "payment_mode": "demo",
   "renew_reminder_days": 5,
+  "ads": {
+    "enabled": true,
+    "refresh_minutes": 60,
+    "waterfall_order": ["admob", "facebook", "adx"],
+    "admob": {
+      "enabled": true,
+      "android": {
+        "app_id": "ca-app-pub-demo-android-app-id",
+        "banner_id": "ca-app-pub-demo-android-banner-id",
+        "interstitial_id": "ca-app-pub-demo-android-interstitial-id",
+        "rewarded_id": "ca-app-pub-demo-android-rewarded-id",
+        "native_id": "ca-app-pub-demo-android-native-id",
+        "app_open_id": "ca-app-pub-demo-android-app-open-id"
+      },
+      "ios": {
+        "app_id": "ca-app-pub-demo-ios-app-id",
+        "banner_id": "ca-app-pub-demo-ios-banner-id",
+        "interstitial_id": "ca-app-pub-demo-ios-interstitial-id",
+        "rewarded_id": "ca-app-pub-demo-ios-rewarded-id",
+        "native_id": "ca-app-pub-demo-ios-native-id",
+        "app_open_id": "ca-app-pub-demo-ios-app-open-id"
+      }
+    },
+    "facebook": {
+      "enabled": true,
+      "android": {
+        "placement_banner": "IMG_16_9_APP_INSTALL#demo_android_banner",
+        "placement_interstitial": "IMG_16_9_APP_INSTALL#demo_android_interstitial",
+        "placement_rewarded": "VID_HD_16_9_46S_APP_INSTALL#demo_android_rewarded",
+        "placement_native": "IMG_16_9_APP_INSTALL#demo_android_native"
+      },
+      "ios": {
+        "placement_banner": "IMG_16_9_APP_INSTALL#demo_ios_banner",
+        "placement_interstitial": "IMG_16_9_APP_INSTALL#demo_ios_interstitial",
+        "placement_rewarded": "VID_HD_16_9_46S_APP_INSTALL#demo_ios_rewarded",
+        "placement_native": "IMG_16_9_APP_INSTALL#demo_ios_native"
+      }
+    },
+    "adx": {
+      "enabled": true,
+      "android": {
+        "banner_id": "/network_code/demo_android_banner",
+        "interstitial_id": "/network_code/demo_android_interstitial",
+        "rewarded_id": "/network_code/demo_android_rewarded",
+        "native_id": "/network_code/demo_android_native",
+        "app_open_id": "/network_code/demo_android_app_open"
+      },
+      "ios": {
+        "banner_id": "/network_code/demo_ios_banner",
+        "interstitial_id": "/network_code/demo_ios_interstitial",
+        "rewarded_id": "/network_code/demo_ios_rewarded",
+        "native_id": "/network_code/demo_ios_native",
+        "app_open_id": "/network_code/demo_ios_app_open"
+      }
+    }
+  },
   "plans": [
     {
       "plan_id": "t17e_53",
