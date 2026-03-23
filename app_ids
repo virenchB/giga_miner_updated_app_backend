@@ -5,7 +5,7 @@
   "renew_reminder_days": 5,
   "ads": {
     "enabled": true,
-    "refresh_minutes": 60,
+    "refresh_minutes": 1,
     "waterfall_order": ["admob", "facebook", "adx"],
     "admob": {
       "enabled": true,
