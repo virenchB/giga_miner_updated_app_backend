@@ -1,7 +1,7 @@
 {
   "version": 2,
   "updated_at": "2026-03-23T00:00:00Z",
-  "payment_mode": "demo",
+  "payment_mode": "store",
   "renew_reminder_days": 5,
   "ads": {
     "enabled": true,
@@ -62,6 +62,13 @@
         "app_open_id": "ca-app-pub-3940256099942544/5575463023"
       }
     }
+  },
+  "stripe": {
+    "enabled": true,
+    "publishable_key": "pk_test_REPLACE_WITH_YOUR_KEY",
+    "payment_intent_url": "https://your-backend.com/create-payment-intent",
+    "merchant_display_name": "Giga Miner",
+    "currency": "inr"
   },
   "plans": [
     {
