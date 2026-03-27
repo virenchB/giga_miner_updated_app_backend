@@ -1,7 +1,8 @@
 {
-  "version": 3,
+  "version": 5,
   "updated_at": "2026-03-27T00:00:00Z",
-  "payment_mode": "store",
+  "demo_mode": false,
+  "payment_mode": "stripe",
   "renew_reminder_days": 5,
   "ads": {
     "enabled": true,
@@ -63,14 +64,16 @@
       }
     }
   },
-"stripe": {
-  "enabled": true,
-  "publishable_key": "pk_live_51RBazZIJ1TalSzK4OLpdI5DruAmcpJSNpOMU27MnJndeztkWrKkh1CcQmdoq2mT2QGXtCGUfuyXokVJWG92YjOi000RolZ7fdV",
-  "payment_intent_url": "https://your-backend.com/create-payment-intent",
-  "merchant_display_name": "Giga Miner",
-  "currency": "inr"
-}
-  "plans": [
+  "stripe": {
+    "enabled": true,
+    "publishable_key": "pk_live_51RBazZIJ1TalSzK4OLpdI5DruAmcpJSNpOMU27MnJndeztkWrKkh1CcQmdoq2mT2QGXtCGUfuyXokVJWG92YjOi000RolZ7fdV",
+    "secret_key": "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",
+    "merchant_identifier": "merchant.com.btc.giga.mining.miner.network.space",
+    "merchant_display_name": "Giga Miner",
+    "payment_intent_url": "https://your-backend.com/create-payment-intent",
+    "currency": "inr"
+  },
+  "subscription_plans": [
     {
       "plan_id": "giga_miner_10",
       "plan_name": "Giga Miner 10 TH/s",
@@ -80,19 +83,22 @@
           "months": 1,
           "price_display": "₹300",
           "android_product_id": "giga_miner_10_1m",
-          "ios_product_id": "giga_miner_10_1m"
+          "ios_product_id": "giga_miner_10_1m",
+          "stripe_payment_link": ""
         },
         {
           "months": 3,
           "price_display": "₹800",
           "android_product_id": "giga_miner_10_3m",
-          "ios_product_id": "giga_miner_10_3m"
+          "ios_product_id": "giga_miner_10_3m",
+          "stripe_payment_link": ""
         },
         {
           "months": 6,
           "price_display": "₹1500",
           "android_product_id": "giga_miner_10_6m",
-          "ios_product_id": "giga_miner_10_6m"
+          "ios_product_id": "giga_miner_10_6m",
+          "stripe_payment_link": ""
         }
       ]
     },
@@ -105,19 +111,22 @@
           "months": 1,
           "price_display": "₹400",
           "android_product_id": "giga_miner_20_1m",
-          "ios_product_id": "giga_miner_20_1m"
+          "ios_product_id": "giga_miner_20_1m",
+          "stripe_payment_link": ""
         },
         {
           "months": 3,
           "price_display": "₹1000",
           "android_product_id": "giga_miner_20_3m",
-          "ios_product_id": "giga_miner_20_3m"
+          "ios_product_id": "giga_miner_20_3m",
+          "stripe_payment_link": ""
         },
         {
           "months": 6,
           "price_display": "₹1900",
           "android_product_id": "giga_miner_20_6m",
-          "ios_product_id": "giga_miner_20_6m"
+          "ios_product_id": "giga_miner_20_6m",
+          "stripe_payment_link": ""
         }
       ]
     },
@@ -130,19 +139,22 @@
           "months": 1,
           "price_display": "₹500",
           "android_product_id": "giga_miner_30_1m",
-          "ios_product_id": "giga_miner_30_1m"
+          "ios_product_id": "giga_miner_30_1m",
+          "stripe_payment_link": ""
         },
         {
           "months": 3,
           "price_display": "₹1200",
           "android_product_id": "giga_miner_30_3m",
-          "ios_product_id": "giga_miner_30_3m"
+          "ios_product_id": "giga_miner_30_3m",
+          "stripe_payment_link": ""
         },
         {
           "months": 6,
           "price_display": "₹2100",
           "android_product_id": "giga_miner_30_6m",
-          "ios_product_id": "giga_miner_30_6m"
+          "ios_product_id": "giga_miner_30_6m",
+          "stripe_payment_link": ""
         }
       ]
     },
@@ -155,19 +167,22 @@
           "months": 1,
           "price_display": "₹600",
           "android_product_id": "giga_miner_40_1m",
-          "ios_product_id": "giga_miner_40_1m"
+          "ios_product_id": "giga_miner_40_1m",
+          "stripe_payment_link": ""
         },
         {
           "months": 3,
           "price_display": "₹1400",
           "android_product_id": "giga_miner_40_3m",
-          "ios_product_id": "giga_miner_40_3m"
+          "ios_product_id": "giga_miner_40_3m",
+          "stripe_payment_link": ""
         },
         {
           "months": 6,
           "price_display": "₹3000",
           "android_product_id": "giga_miner_40_6m",
-          "ios_product_id": "giga_miner_40_6m"
+          "ios_product_id": "giga_miner_40_6m",
+          "stripe_payment_link": ""
         }
       ]
     },
@@ -180,19 +195,22 @@
           "months": 1,
           "price_display": "₹750",
           "android_product_id": "giga_miner_53_1m",
-          "ios_product_id": "giga_miner_53_1m"
+          "ios_product_id": "giga_miner_53_1m",
+          "stripe_payment_link": ""
         },
         {
           "months": 3,
           "price_display": "₹1700",
           "android_product_id": "giga_miner_53_3m",
-          "ios_product_id": "giga_miner_53_3m"
+          "ios_product_id": "giga_miner_53_3m",
+          "stripe_payment_link": ""
         },
         {
           "months": 6,
           "price_display": "₹3500",
           "android_product_id": "giga_miner_53_6m",
-          "ios_product_id": "giga_miner_53_6m"
+          "ios_product_id": "giga_miner_53_6m",
+          "stripe_payment_link": ""
         }
       ]
     }
