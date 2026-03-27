@@ -63,13 +63,13 @@
       }
     }
   },
-  "stripe": {
-    "enabled": true,
-    "publishable_key": "pk_test_REPLACE_WITH_YOUR_KEY",
-    "payment_intent_url": "https://your-backend.com/create-payment-intent",
-    "merchant_display_name": "Giga Miner",
-    "currency": "inr"
-  },
+"stripe": {
+  "enabled": true,
+  "publishable_key": "pk_live_51RBazZIJ1TalSzK4OLpdI5DruAmcpJSNpOMU27MnJndeztkWrKkh1CcQmdoq2mT2QGXtCGUfuyXokVJWG92YjOi000RolZ7fdV",
+  "payment_intent_url": "https://your-backend.com/create-payment-intent",
+  "merchant_display_name": "Giga Miner",
+  "currency": "inr"
+}
   "plans": [
     {
       "plan_id": "giga_miner_10",
