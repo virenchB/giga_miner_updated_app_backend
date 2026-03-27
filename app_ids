@@ -1,6 +1,6 @@
 {
-  "version": 2,
-  "updated_at": "2026-03-23T00:00:00Z",
+  "version": 3,
+  "updated_at": "2026-03-27T00:00:00Z",
   "payment_mode": "store",
   "renew_reminder_days": 5,
   "ads": {
@@ -72,127 +72,127 @@
   },
   "plans": [
     {
-      "plan_id": "t17e_53",
-      "plan_name": "Giga T17e",
+      "plan_id": "giga_miner_10",
+      "plan_name": "Giga Miner 10 TH/s",
+      "power_ths": 10,
+      "durations": [
+        {
+          "months": 1,
+          "price_display": "₹300",
+          "android_product_id": "giga_miner_10_1m",
+          "ios_product_id": "giga_miner_10_1m"
+        },
+        {
+          "months": 3,
+          "price_display": "₹800",
+          "android_product_id": "giga_miner_10_3m",
+          "ios_product_id": "giga_miner_10_3m"
+        },
+        {
+          "months": 6,
+          "price_display": "₹1500",
+          "android_product_id": "giga_miner_10_6m",
+          "ios_product_id": "giga_miner_10_6m"
+        }
+      ]
+    },
+    {
+      "plan_id": "giga_miner_20",
+      "plan_name": "Giga Miner 20 TH/s",
+      "power_ths": 20,
+      "durations": [
+        {
+          "months": 1,
+          "price_display": "₹400",
+          "android_product_id": "giga_miner_20_1m",
+          "ios_product_id": "giga_miner_20_1m"
+        },
+        {
+          "months": 3,
+          "price_display": "₹1000",
+          "android_product_id": "giga_miner_20_3m",
+          "ios_product_id": "giga_miner_20_3m"
+        },
+        {
+          "months": 6,
+          "price_display": "₹1900",
+          "android_product_id": "giga_miner_20_6m",
+          "ios_product_id": "giga_miner_20_6m"
+        }
+      ]
+    },
+    {
+      "plan_id": "giga_miner_30",
+      "plan_name": "Giga Miner 30 TH/s",
+      "power_ths": 30,
+      "durations": [
+        {
+          "months": 1,
+          "price_display": "₹500",
+          "android_product_id": "giga_miner_30_1m",
+          "ios_product_id": "giga_miner_30_1m"
+        },
+        {
+          "months": 3,
+          "price_display": "₹1200",
+          "android_product_id": "giga_miner_30_3m",
+          "ios_product_id": "giga_miner_30_3m"
+        },
+        {
+          "months": 6,
+          "price_display": "₹2100",
+          "android_product_id": "giga_miner_30_6m",
+          "ios_product_id": "giga_miner_30_6m"
+        }
+      ]
+    },
+    {
+      "plan_id": "giga_miner_40",
+      "plan_name": "Giga Miner 40 TH/s",
+      "power_ths": 40,
+      "durations": [
+        {
+          "months": 1,
+          "price_display": "₹600",
+          "android_product_id": "giga_miner_40_1m",
+          "ios_product_id": "giga_miner_40_1m"
+        },
+        {
+          "months": 3,
+          "price_display": "₹1400",
+          "android_product_id": "giga_miner_40_3m",
+          "ios_product_id": "giga_miner_40_3m"
+        },
+        {
+          "months": 6,
+          "price_display": "₹3000",
+          "android_product_id": "giga_miner_40_6m",
+          "ios_product_id": "giga_miner_40_6m"
+        }
+      ]
+    },
+    {
+      "plan_id": "giga_miner_53",
+      "plan_name": "Giga Miner 53 TH/s",
       "power_ths": 53,
       "durations": [
         {
           "months": 1,
-          "price_display": "₹500",
-          "android_product_id": "giga_t17e_53_1m",
-          "ios_product_id": "giga_t17e_53_1m"
+          "price_display": "₹750",
+          "android_product_id": "giga_miner_53_1m",
+          "ios_product_id": "giga_miner_53_1m"
         },
         {
           "months": 3,
-          "price_display": "₹1300",
-          "android_product_id": "giga_t17e_53_3m",
-          "ios_product_id": "giga_t17e_53_3m"
+          "price_display": "₹1700",
+          "android_product_id": "giga_miner_53_3m",
+          "ios_product_id": "giga_miner_53_3m"
         },
         {
           "months": 6,
-          "price_display": "₹2500",
-          "android_product_id": "giga_t17e_53_6m",
-          "ios_product_id": "giga_t17e_53_6m"
-        }
-      ]
-    },
-    {
-      "plan_id": "s19j_pro",
-      "plan_name": "Giga S19j Pro",
-      "power_ths": 104,
-      "durations": [
-        {
-          "months": 1,
-          "price_display": "₹500",
-          "android_product_id": "giga_s19j_pro_104_1m",
-          "ios_product_id": "giga_s19j_pro_104_1m"
-        },
-        {
-          "months": 3,
-          "price_display": "₹1300",
-          "android_product_id": "giga_s19j_pro_104_3m",
-          "ios_product_id": "giga_s19j_pro_104_3m"
-        },
-        {
-          "months": 6,
-          "price_display": "₹2500",
-          "android_product_id": "giga_s19j_pro_104_6m",
-          "ios_product_id": "giga_s19j_pro_104_6m"
-        }
-      ]
-    },
-    {
-      "plan_id": "s21_air",
-      "plan_name": "Giga S21 (Air)",
-      "power_ths": 200,
-      "durations": [
-        {
-          "months": 1,
-          "price_display": "₹500",
-          "android_product_id": "giga_s21_air_200_1m",
-          "ios_product_id": "giga_s21_air_200_1m"
-        },
-        {
-          "months": 3,
-          "price_display": "₹1300",
-          "android_product_id": "giga_s21_air_200_3m",
-          "ios_product_id": "giga_s21_air_200_3m"
-        },
-        {
-          "months": 6,
-          "price_display": "₹2500",
-          "android_product_id": "giga_s21_air_200_6m",
-          "ios_product_id": "giga_s21_air_200_6m"
-        }
-      ]
-    },
-    {
-      "plan_id": "s19_xp_hydro",
-      "plan_name": "Giga S19 XP Hydro",
-      "power_ths": 255,
-      "durations": [
-        {
-          "months": 1,
-          "price_display": "₹500",
-          "android_product_id": "giga_s19_xp_hydro_255_1m",
-          "ios_product_id": "giga_s19_xp_hydro_255_1m"
-        },
-        {
-          "months": 3,
-          "price_display": "₹1300",
-          "android_product_id": "giga_s19_xp_hydro_255_3m",
-          "ios_product_id": "giga_s19_xp_hydro_255_3m"
-        },
-        {
-          "months": 6,
-          "price_display": "₹2500",
-          "android_product_id": "giga_s19_xp_hydro_255_6m",
-          "ios_product_id": "giga_s19_xp_hydro_255_6m"
-        }
-      ]
-    },
-    {
-      "plan_id": "s21_hydro",
-      "plan_name": "Giga S21 Hydro",
-      "power_ths": 335,
-      "durations": [
-        {
-          "months": 1,
-          "price_display": "₹500",
-          "android_product_id": "giga_s21_hydro_335_1m",
-          "ios_product_id": "giga_s21_hydro_335_1m"
-        },
-        {
-          "months": 3,
-          "price_display": "₹1300",
-          "android_product_id": "giga_s21_hydro_335_3m",
-          "ios_product_id": "giga_s21_hydro_335_3m"
-        },
-        {
-          "months": 6,
-          "price_display": "₹2500",
-          "android_product_id": "giga_s21_hydro_335_6m",
-          "ios_product_id": "giga_s21_hydro_335_6m"
+          "price_display": "₹3500",
+          "android_product_id": "giga_miner_53_6m",
+          "ios_product_id": "giga_miner_53_6m"
         }
       ]
     }
