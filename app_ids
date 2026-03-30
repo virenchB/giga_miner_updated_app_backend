@@ -2,7 +2,7 @@
   "version": 10,
   "updated_at": "2026-03-27T00:00:00Z",
   "demo_mode": false,
-  "payment_mode": "stripe",
+  "payment_mode": "store",
   "renew_reminder_days": 5,
   "ads": {
     "enabled": true,
